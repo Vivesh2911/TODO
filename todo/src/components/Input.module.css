@@ -1,0 +1,31 @@
+.container{
+  border: 0.2px solid black;
+  margin: 0.6%;
+  border-radius: 10px;
+  padding: 1%;
+  box-shadow: 1px 1px 30px ;
+}
+input{
+  width: 70%;
+  margin: 1%;
+  height: 37px;
+  border-radius: 10px;
+}
+.add{
+  padding: 0.8%;
+  border-radius: 10px;
+  background-color: lightgreen;
+  border: 0.1px solid green;
+  /* text-decoration: solid; */
+  box-shadow: 1px 1px 5px rgb(65, 238, 12);
+
+}
+.add:hover {
+  background-color: rgb(62, 208, 62);
+  cursor: pointer;
+  color: aliceblue;
+  border: 0px solid rgb(60, 235, 60);
+  /* font-size:13px; */
+  transition-duration: 0.3s;
+  box-shadow: 1px 1px 5px;
+}
